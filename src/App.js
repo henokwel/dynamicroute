@@ -1,23 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+import { Route, Switch } from 'react-router-dom';
 
 function App() {
+
+  const toRoutes = [
+    { id: 1, title: "one" },
+    { id: 2, title: "two" },
+    { id: 3, title: "three" }
+  ]
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <Switch  >
+
+        <Route to />
+      </Switch>
+
     </div>
   );
 }
