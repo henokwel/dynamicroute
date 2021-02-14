@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import { Route, Switch } from 'react-router-dom';
+import { Link, Route, Switch, BrowserRouter as Router, useParams, NavLink } from 'react-router-dom';
+import scripts from './scripts';
 
 function App() {
 
@@ -12,15 +13,43 @@ function App() {
 
 
   return (
-    <div className="App">
+    <Router>
 
-      <Switch  >
+      <div className="App">
 
-        <Route to />
-      </Switch>
+        <nav>
 
-    </div>
+          {
+            toRoutes.map(({ title, id }) => {
+              return <NavLink
+                exact
+                key={id}
+                activeClassName="selected"
+                to={`/${title}`}>{title.toLocaleUpperCase()}</NavLink>
+
+            })
+          }
+        </nav>
+
+        <Switch>
+
+          <Route path="/:id" children={<Child />} />
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
 export default App;
+
+
+function Child() {
+  let { id } = useParams()
+  const selected = scripts.filter(item => item.id === id)[0]
+
+  return (
+    <div className="chap">
+      <p>{selected.script}</p>
+    </div>
+  )
+}

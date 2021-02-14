@@ -1,2 +1,29 @@
+
  
  
+nav {
+  display: flex;
+  align-items: center;
+  background-color: rgb(77, 43, 43);
+  height: 10vh;
+
+}
+
+a {
+  color: rgb(194, 235, 206);
+  text-decoration: none;
+  margin-left: 3vw;
+  font-size: clamp(1rem, 8vw, 2.4rem); 
+  font-weight: 200;
+}
+
+.selected{
+  color: white;
+}
+
+.chap{
+  padding: 20px;
+  background-color: royalblue;
+  height: 90vh;
+
+}
