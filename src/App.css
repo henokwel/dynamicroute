@@ -1,9 +1,12 @@
 nav {
   display: flex;
-  align-items: center;
   height: 10vh;
   border-bottom: 1px solid rgb(179, 179, 179);
   /* background-color:red ; */
+}
+
+nav div{
+  display: flex;
 }
 
 a {
@@ -18,12 +21,14 @@ a {
 h3 {
   letter-spacing: 0.10em;
    /* border: 3px solid black; */
-  -webkit-text-stroke: 1px  rgb(22, 22, 22); /* width and color */
+  -webkit-text-stroke: 0.5px  rgb(22, 22, 22); /* width and color */
 
 }
 
 .selected {
   color: rgb(12, 12, 12);
+  letter-spacing: 1em;
+
 }
 
 .chap {
@@ -52,3 +57,24 @@ h3 {
 .chap::-webkit-scrollbar {
   display: none;
 }
+
+
+.home{
+  height: 50vh;
+}
+.home img{
+  width: 200px;
+  transform: rotate(20deg);
+  margin-left: 20vw;
+}
+
+
+.n404{
+  height: 50vh;
+}
+.n404 img{
+  width: 200px;
+  transform: rotate(20deg);
+  margin-left: 10vw;
+}
+
