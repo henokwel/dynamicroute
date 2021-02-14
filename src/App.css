@@ -1,12 +1,15 @@
 nav {
   display: flex;
-  height: 10vh;
+  flex-direction: column;
+  width: 100vw;
+  height: 20vh;
   border-bottom: 1px solid rgb(179, 179, 179);
   /* background-color:red ; */
 }
 
-nav div{
+nav div {
   display: flex;
+  width: 100vw;
 }
 
 a {
@@ -19,37 +22,36 @@ a {
 }
 
 h3 {
-  letter-spacing: 0.10em;
-   /* border: 3px solid black; */
-  -webkit-text-stroke: 0.5px  rgb(22, 22, 22); /* width and color */
-
+  letter-spacing: 0.1em;
+  margin: 0;
+  /* border: 3px solid black; */
+  -webkit-text-stroke: 0.5px rgb(22, 22, 22); /* width and color */
 }
 
 .selected {
   color: rgb(12, 12, 12);
   letter-spacing: 1em;
-
 }
 
 .chap {
   background-image: url("./Assets/linez2.png");
-   /* Background image is centered vertically and horizontally at all times */
-   background-position: center center;
-  
-   /* Background image doesn't tile */
-   background-repeat: repeat;
-   
-   /* Background image is fixed in the viewport so that it doesn't move when 
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+
+  /* Background image doesn't tile */
+  background-repeat: repeat;
+
+  /* Background image is fixed in the viewport so that it doesn't move when 
       the content's height is greater than the image's height */
-   background-attachment: fixed;
-   
-   /* This is what makes the background image rescale based
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based
       on the container's size */
-   background-size: contain;
+  background-size: contain;
 
   padding: 20px;
   /* background-color: rgb(36, 52, 100); */
-  height: 90vh;
+  height: 80vh;
   overflow: scroll;
   padding: 5vh 10vw 0 20vw;
 }
@@ -58,23 +60,22 @@ h3 {
   display: none;
 }
 
-
-.home{
+.home {
   height: 50vh;
 }
-.home img{
+.home img {
   width: 200px;
   transform: rotate(20deg);
   margin-left: 20vw;
+  margin-top: 50px;
 }
 
-
-.n404{
+.n404 {
   height: 50vh;
+  
 }
-.n404 img{
+.n404 img {
   width: 200px;
   transform: rotate(20deg);
   margin-left: 10vw;
 }
-

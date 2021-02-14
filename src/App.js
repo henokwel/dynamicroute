@@ -4,24 +4,24 @@ import { Link, Route, Switch, BrowserRouter as Router, useParams, NavLink } from
 import scripts from './scripts';
 import click from './Assets/clicksvg.svg'
 import n404 from './Assets/404.png'
-
+import { motion } from 'framer-motion'
 
 function App() {
 
   const toRoutes = [
     { id: 1, title: "one" },
     { id: 2, title: "two" },
-    { id: 3, title: "three" }
+    { id: 3, title: "three" },
+    { id: 4, title: "error" }
+
   ]
+ 
 
 
   return (
     <Router>
-
       <div className="App">
-
         <nav>
-
           <h1>Chapter's</h1>
           <div>
             {
@@ -31,8 +31,9 @@ function App() {
                   key={id}
                   activeClassName="selected"
                   to={`/${title}`}>
+
                   <h3>
-                    {title.toLocaleUpperCase()}
+                    {title}
                   </h3>
                 </NavLink>
 
@@ -43,17 +44,19 @@ function App() {
 
         <Switch>
 
+
           <Route path="/:id" children={<Child />} />
           <Route path="/" children={<Home />} />
           <Route path="*" children={<NotFounf />} />
 
         </Switch>
       </div>
-    </Router>
+    </Router >
   );
 }
 
 export default App;
+
 
 
 function Child() {
