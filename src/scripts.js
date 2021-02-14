@@ -20,20 +20,6 @@ Can. 11. Irritantes aut inhabilitantes eae tantum leges habendae sunt, quibus au
 Can. 12. Legibus mere ecclesiasticis non tenentur qui baptismum non receperunt, nec baptizati qui sufficienti rationis usu non gaudent, nec qui, licet rationis usum assecuti, septimum aetatis annum nondum expleverunt, nisi aliud iure expresse caveatur.
 
 Can. l3. par. l. Legibus generalibus tenentur ubique terrarum omnes pro quibus latae sunt.
-
-par. 2. Legibus conditis pro peculiari territorio ii subiiciuntur pro quibus latae sunt quique ibidem domicilium vel quasi-domicilium habent et simul actu commorantur, firmo praescripto can. 14.
-
-Can.l4. par. 1. Peregrini:
-
-l.deg. Non adstringuntur legibus particularibus sui territorii quandiu ab eo absunt, nisi aut earum transgressio in proprio territorio noceat, aut leges sint personales;
-
-2.deg. Neque legibus territorii in quo versantur, iis exceptis quae ordini publico consulunt, vel actuum sollemnia determinant;
-
-3.deg. At legibus generalibus tennentur etiamsi hae suo in territorio non vigeant, minime vero si in loco in quo versantur non obligent.
-
-par. 2. Vagi obligantur legibus tam generalibus quam particularibus quae vigent in loco in quo versantur.
-
-Can. 15. Leges, etiam irritantes et inhabilitantes, in dubio iuris non urgent; in dubio autem facti potest Ordinarius in eis dispensare, dummodo agatur de legibus in quibus Romanus Pontifex dispensare solet.
  `},
     {
         id: "two",

@@ -18,6 +18,7 @@ function App() {
       <div className="App">
 
         <nav>
+          
 
           {
             toRoutes.map(({ title, id }) => {
@@ -25,7 +26,11 @@ function App() {
                 exact
                 key={id}
                 activeClassName="selected"
-                to={`/${title}`}>{title.toLocaleUpperCase()}</NavLink>
+                to={`/${title}`}>
+                <h3>
+                  {title.toLocaleUpperCase()}
+                </h3>
+              </NavLink>
 
             })
           }

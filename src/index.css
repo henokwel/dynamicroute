@@ -10,9 +10,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background-image: url("./Assets/texture.jpg"); */
-  background-color: rgb(70, 60, 45);
-  background-size: center;
+   background-size: center;
   font-size: clamp(1rem, 2vw, 2rem);
-  color: rgb(190, 193, 196);
+  color: rgb(112, 128, 143);
   
 }

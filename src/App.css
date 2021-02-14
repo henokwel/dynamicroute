@@ -1,36 +1,54 @@
-
-
- 
- 
 nav {
   display: flex;
   align-items: center;
-  background-color: rgb(77, 43, 43);
   height: 10vh;
-
+  border-bottom: 1px solid rgb(179, 179, 179);
+  /* background-color:red ; */
 }
 
 a {
-  color: rgb(194, 235, 206);
+  /* color: rgb(194, 235, 206); */
   text-decoration: none;
   margin-left: 3vw;
-  font-size: clamp(1rem, 8vw, 2.4rem); 
+  font-size: clamp(1rem, 8vw, 2.4rem);
   font-weight: 200;
-}
-
-.selected{
   color: white;
 }
 
-.chap{
-  padding: 20px;
-  background-color: royalblue;
-  height: 90vh;
-  overflow: scroll;
- 
+h3 {
+  letter-spacing: 0.10em;
+   /* border: 3px solid black; */
+  -webkit-text-stroke: 1px  rgb(22, 22, 22); /* width and color */
+
 }
 
-.chap::-webkit-scrollbar{
+.selected {
+  color: rgb(12, 12, 12);
+}
+
+.chap {
+  background-image: url("./Assets/linez2.png");
+   /* Background image is centered vertically and horizontally at all times */
+   background-position: center center;
+  
+   /* Background image doesn't tile */
+   background-repeat: repeat;
+   
+   /* Background image is fixed in the viewport so that it doesn't move when 
+      the content's height is greater than the image's height */
+   background-attachment: fixed;
+   
+   /* This is what makes the background image rescale based
+      on the container's size */
+   background-size: contain;
+
+  padding: 20px;
+  /* background-color: rgb(36, 52, 100); */
+  height: 90vh;
+  overflow: scroll;
+  padding: 5vh 10vw 0 20vw;
+}
+
+.chap::-webkit-scrollbar {
   display: none;
 }
- 
