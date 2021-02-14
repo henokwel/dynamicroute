@@ -59,19 +59,18 @@ export default App;
 function Child() {
   let { id } = useParams()
   const selected = scripts.filter(item => item.id === id)[0]
-console.log(selected);
 
   return (
     <div className="chap">
-      {selected !== undefined ? 
-      <p>{selected.script}</p>
-      :
-      <NotFounf />
-      
+      {selected !== undefined ?
+        <p>{selected.script}</p>
+        :
+        <NotFounf />
+
       }
     </div>
   )
-} 
+}
 function Home() {
 
   return (
