@@ -1,4 +1,5 @@
 
+
  
  
 nav {
@@ -25,5 +26,11 @@ a {
   padding: 20px;
   background-color: royalblue;
   height: 90vh;
-
+  overflow: scroll;
+ 
 }
+
+.chap::-webkit-scrollbar{
+  display: none;
+}
+ 
