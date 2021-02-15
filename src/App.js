@@ -22,7 +22,7 @@ function App() {
     <Router>
       <div className="App">
         <nav>
-          <h1>Chapter's</h1>
+          {/* <h1>Chapter's</h1> */}
           <div>
             {
               toRoutes.map(({ title, id }) => {
