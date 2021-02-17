@@ -3,16 +3,14 @@
   box-sizing: border-box;
 }
 
- 
 body {
   margin: 0;
   font-family: "Grenze Gotisch", cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background-image: url("./Assets/texture.jpg"); */
-   background-size: center;
-   background-color: #f5e5d2;
+  background-size: center;
+  background-color: #fff6eb;
   font-size: clamp(1rem, 2vw, 2rem);
   color: rgb(112, 128, 143);
- 
- }
+}
