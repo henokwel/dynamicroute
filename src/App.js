@@ -15,7 +15,7 @@ function App() {
     { id: 4, title: "error" }
 
   ]
- 
+
 
 
   return (
@@ -32,9 +32,12 @@ function App() {
                   activeClassName="selected"
                   to={`/${title}`}>
 
-                  <h3>
+                  <motion.h3
+                    whileHover={{ scale: 1.1 }}
+ 
+                  >
                     {title}
-                  </h3>
+                  </motion.h3>
                 </NavLink>
 
               })
